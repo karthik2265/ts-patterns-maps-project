@@ -11,3 +11,5 @@ const mapElement: HTMLElement =
   document.getElementById("map") || document.createElement("div");
 
 const myMap = new CustomMap(mapElement);
+myMap.addMarker(user)
+myMap.addMarker(company);

@@ -23272,7 +23272,7 @@ var Company_1 = require("./Company");
 var CustomMap_1 = require("./CustomMap");
 
 var user = new User_1.User();
-console.log(user);
+console.log(user.color);
 var company = new Company_1.Company();
 var mapElement = document.getElementById("map") || document.createElement("div");
 var myMap = new CustomMap_1.CustomMap(mapElement);
@@ -23306,7 +23306,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50688" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52136" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
